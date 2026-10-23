@@ -1,14 +1,17 @@
 
 void main() {
     //Primer ejercicio de invertir cadenas
+    System.out.println("Cadena invertida ejercicio 1");
     System.out.println(invertir("Hola soy una cadena"));
 
     //ejercicio 2 numeros pares, use dos ejemplos
     Integer[] entrada = {2,7,9,12,33,15,22,12,4};
     Integer[] entrada2 = {1,2,3,4,5,6,7,2,4,6,8,6};
+    System.out.println("Pares unicos ejercicio 2");
     System.out.println(paresUnicos(entrada2));
 
     //Ejercicio 3 Validar gemelos envia dos parametros para numero inicial y final
+    System.out.println("Numeros primos gemelos Ejercicio 3");
     System.out.println(validarGemelos(0,10));
 
     //Ejercicio 4 Arreglo de enteros y numero objetivo
@@ -16,6 +19,7 @@ void main() {
     Integer[] entrada4 = {55,3,8,11,45,1};
     Integer[] entrada5 = {2,5,88,44,1,7};
     Integer objetivo = 88;
+    System.out.println("Numero objetivo Ejercicio 4");
     System.out.println(numeroObjetivo(Arrays.stream(entrada3).toList(),objetivo));
 }
 /*
